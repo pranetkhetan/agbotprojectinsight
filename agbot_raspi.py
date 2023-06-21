@@ -3,7 +3,7 @@ import serial
 import time
 
 arduino = serial.Serial('COM9',9600,timeout=1)
-time.sleep(0.02)
+#time.sleep(0.02)
 
 screen = curses.initscr()
 curses.noecho()
@@ -12,7 +12,6 @@ screen.keypad(True)
 
 try:
     while True:
-        time.sleep(0.15)
         char = screen.getch()
         if char == ord('q'):
             break

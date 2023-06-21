@@ -78,7 +78,7 @@ analogWrite(lft_L_PWM,0);
 }
 
 void loop(){
-  delay(50);
+  delay(15);
   if(Serial.available() > 0) {
     command = Serial.read();
     if(command == 'f'){
@@ -97,4 +97,5 @@ void loop(){
   } else {
     stopmotors();
   }
+      Serial.flush();
 }
