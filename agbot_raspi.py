@@ -2,8 +2,8 @@ import curses
 import serial
 import time
 
-arduino = serial.Serial('COM9',9600,timeout=1)
-#time.sleep(0.02)
+arduino = serial.Serial('USB0',9600,timeout=1)
+time.sleep(0.02)
 
 screen = curses.initscr()
 curses.noecho()

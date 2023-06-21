@@ -78,7 +78,7 @@ analogWrite(lft_L_PWM,0);
 }
 
 void loop(){
-  delay(15);
+  delay(5);
   if(Serial.available() > 0) {
     command = Serial.read();
     if(command == 'f'){
