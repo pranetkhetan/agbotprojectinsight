@@ -1,5 +1,6 @@
 # agbotprojectinsight
 Arduino and Python code for AgBot Project at Plaksha YTS 2023 (Team: Project Insight)
 
-Nk/SM8OkKVKAgfnEc5nFGE+3GMsOVXKIc4r8WUSs9SY= <br>
-This is the password for the Raspberry PI
+gpLCh6qVflSe88AQjuK7T/QUb8udwVuuLPOPNMjplLg= <br>
+This is the (encrypted) password for the Raspberry PI
+(we love popular advertisements)
