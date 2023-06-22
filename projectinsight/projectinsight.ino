@@ -78,17 +78,17 @@ analogWrite(lft_L_PWM,0);
 }
 
 void loop(){
-  delay(5);
+  delay(15);
   if(Serial.available() > 0) {
     command = Serial.read();
     if(command == 'f'){
-      forward(200);
+      forward(255);
     } else if(command == 'b') {
-      backward(200);
+      backward(255);
     } else if(command == 'r') {
-      right(200);
+      right(255);
     } else if(command == 'l') {
-      left(200);
+      left(255);
     } else if(command == 's') {
       stopmotors();
     } else {
