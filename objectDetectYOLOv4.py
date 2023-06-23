@@ -1,8 +1,8 @@
 import numpy as np
 import cv2
 
-# Load YOLO
-net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+# Load YOLOv4
+net = cv2.dnn.readNet("yolov4.weights", "yolov4.cfg")
 
 # Enable GPU acceleration
 net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
