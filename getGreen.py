@@ -17,6 +17,8 @@ while True:
     green_pixels = np.sum(mask > 0)
     total_pixels = image.shape[0] * image.shape[1]
     green_percentage = (green_pixels / total_pixels) * 100
+    masked_image = cv2.bitwise_and(image, image, mask=mask)
+    cv2.imshow('Masked Image', masked_image)
     print(f"Percentage of green pixels is {green_percentage:.1f}%")
     cv2.imshow('Video Stream', frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
