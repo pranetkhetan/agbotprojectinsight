@@ -5,4 +5,5 @@ gpLCh6qVflSe88AQjuK7T/QUb8udwVuuLPOPNMjplLg= <br>
 This is the (encrypted) password for the Raspberry PI
 (we love popular advertisements) <br><br>
 
-AgriBuddy - farmersprotest or something similar
+AgriBuddy - farmersprotest <br>
+Hephaestus - amitabhbachchan
