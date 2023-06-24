@@ -4,3 +4,5 @@ Arduino and Python code for AgBot Project at Plaksha YTS 2023 (Team: Project Ins
 gpLCh6qVflSe88AQjuK7T/QUb8udwVuuLPOPNMjplLg= <br>
 This is the (encrypted) password for the Raspberry PI
 (we love popular advertisements) <br><br>
+
+AgriBuddy - farmersprotest'1 or something similar
